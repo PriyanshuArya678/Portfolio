@@ -8,6 +8,7 @@ import nodejs_icon from "../../assets/icons/nodejs_icon.svg";
 import mongodb_icon from "../../assets/icons/mongodb_icon.svg"
 import mysql_icon from "../../assets/icons/mysql.svg"
 import dart_icon from "../../assets/icons/dart_icon.svg"
+import myImage from "./myPic.jpg";
 function About() {
   const techStack = [
     js_icon,
@@ -30,7 +31,10 @@ function About() {
       <div className=" flex flex-col  items-center justify-center gap-y-4 p-8 text-textColor xl:gap-y-8 ">
         <div className="flex flex-col items-center gap-x-48 xl:flex-row">
           <div className=" xl:order-2">
-            <div className=" box border-4 border-accentColor xl:h-[300px] xl:w-[300px] "></div>
+            <div >
+            <img src={myImage} className="box border-4 border-accentColor xl:h-[300px] xl:w-[300px] object-cover"  alt=""/>
+
+            </div>
           </div>
           <div>
             <h1 className="text-center text-3xl font-extrabold text-white xl:text-start xl:text-6xl">

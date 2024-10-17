@@ -8,8 +8,8 @@ function Github() {
   const orderedRepoNames = [
     "RiffRanger",
     "Wallet-wiz",
+    "Portfolio",
     "Google-Docs-Clone",
-    "Quicksell",
   ];
 
   const repoInfo = orderedRepoNames.map((repoName) => 
