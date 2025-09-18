@@ -41,4 +41,12 @@ export const project = [
     sourceCode: "https://github.com/PriyanshuArya678/Google-Docs-Clone",
     demo: "https://google-docs-clone-cyan.vercel.app/documents",
   },
+  {
+    title: "Job-Scribe",
+    description:
+      "Personalised Email Generation App using User's Resume and Job link ",
+    image: googledocsclone,
+    tags: ["react", "axios", "socket.io","tailwind","mongodb","express.js"],
+    sourceCode: "https://github.com/PriyanshuArya678/JobScribe",
+  },
 ];
